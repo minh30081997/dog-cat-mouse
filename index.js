@@ -1,4 +1,7 @@
 let Dog = require('./Dog');
+let Mouse = require('./Mouse');
 
-let dog = new Dog('Tom');
-dog.sayHi();
+let wolf = new Dog('Wolf');
+let tom = new Mouse('Tom');
+
+wolf.eat(tom);
